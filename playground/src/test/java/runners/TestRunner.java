@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     monochrome = true,
     features = "src/test/resources/features",
-    glue = {"stepDefinitions"}
+    glue = {"stepDefinitions"},
+    tags = "@nasa"
 )
 public class TestRunner {
 

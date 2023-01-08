@@ -9,8 +9,8 @@ import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 
-public class DefaultSteps {
-    private static final Logger logger = Logger.getLogger(DefaultSteps.class);
+public class PokemonDefaultSteps {
+    private static final Logger logger = Logger.getLogger(PokemonDefaultSteps.class);
     private Response response;
 
     private Integer weight;
