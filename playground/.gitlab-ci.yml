@@ -6,7 +6,7 @@ default:
 stages:
   - test
 
-Integration tests with Allure:
+Integration test with Allure:
   stage: test
   script:
     - mvn clean test
